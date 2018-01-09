@@ -17,7 +17,7 @@
 4. 如果遇到“Not allowed to bind to service Intent...”之类的错误，需要在终端下赋予该卡片程序SmartcardServicePermission label权限：
 
 ``` shell
-pm grant com.cmcc.wallet org.simalliance.openmobileapi.SMARTCARD
-pm grant com.umpay.mobilelife org.simalliance.openmobileapi.SMARTCARD
+pm grant com.cmcc.hebao org.simalliance.openmobileapi.SMARTCARD
+pm grant com.umpay.bjmobilelife org.simalliance.openmobileapi.SMARTCARD
 ```
    ​

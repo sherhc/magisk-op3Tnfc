@@ -20,4 +20,8 @@
 pm grant com.cmcc.hebao org.simalliance.openmobileapi.SMARTCARD
 pm grant com.umpay.bjmobilelife org.simalliance.openmobileapi.SMARTCARD
 ```
-   ​
+
+5.修改libnfc-nxp.conf的第474行：33, 04, 00, 00, 00, 00,的后8个数字为门禁卡ID，如12, 34, 56, 78,
+
+6.最终效果可以实现为亮屏下可刷门禁，锁屏/暗屏下可刷地铁/公交。
+  ​
